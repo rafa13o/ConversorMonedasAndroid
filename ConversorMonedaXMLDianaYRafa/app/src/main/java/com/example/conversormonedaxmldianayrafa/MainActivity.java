@@ -66,16 +66,17 @@ public class MainActivity extends AppCompatActivity {
         //spinorigen.setSelection(0);
         //spindestino.setSelection(1);
 
-        ct_origen.setOnClickListener(new View.OnClickListener() {
+
+        ct_origen.setOnFocusChangeListener (new View.OnFocusChangeListener() {
             @Override
-            public void onClick(View v) {
+            public void onFocusChange(View v, boolean hasFocus) {
                 escribirOrigen = true;
             }
         });
 
-        ct_destino.setOnClickListener(new View.OnClickListener() {
+        ct_destino.setOnFocusChangeListener (new View.OnFocusChangeListener() {
             @Override
-            public void onClick(View v) {
+            public void onFocusChange(View v, boolean hasFocus) {
                 escribirOrigen = false;
             }
         });
