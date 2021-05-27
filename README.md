@@ -1,5 +1,5 @@
 # ConversorMonedasAndroid
- Conversor de monedas de SAX y DOM en Android - Práctica del módulo Programación Mult. y Disp. Móviles de DAM
+ Conversor de monedas de SAX y DOM en Android - Práctica en parejas del módulo Programación Mult. y Disp. Móviles de DAM
 
 **XML en ANDROID**
 
